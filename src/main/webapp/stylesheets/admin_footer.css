@@ -1,0 +1,35 @@
+
+.footer {
+    align-items: center;
+    background-color: #7d7c7c;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    bottom:0;
+    left:0;
+  }
+  
+  @media (max-width: 991px) {
+    .footer {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  
+  .copyright {
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    padding: 3px 5px;
+  }
+  
+  @media (max-width: 991px) {
+    .copyright {
+      max-width: 100%;
+    }
+  }

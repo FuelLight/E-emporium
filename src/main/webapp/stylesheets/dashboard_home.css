@@ -1,0 +1,110 @@
+
+.admin-welcome {
+    background-color: #fff;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:80%;
+}
+
+@media (max-width: 991px) {
+    .admin-welcome {
+        padding: 0 20px;
+    }
+}
+
+.admin-welcome-title {
+    color: #0048ff;
+    font: 700 44px Poppins, sans-serif;
+    margin:0;
+}
+
+@media (max-width: 991px) {
+    .admin-welcome-title {
+        max-width: 100%;
+    }
+}
+
+.stats-container {
+    margin-top: 40px;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.stats-row {
+    display: flex;
+    gap: 20px;
+    width: fit-content;
+}
+
+@media (max-width: 991px) {
+    .stats-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.stats-column {
+    width: fit-content;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+
+@media (max-width: 991px) {
+    .stats-column {
+        width: 100%;
+    }
+}
+
+.stats-card {
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+    .stats-card {
+        margin-top: 40px;
+    }
+}
+
+.stats-card-title {
+    background-color: #a5a5a5;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 2px 36px;
+    margin:0;
+    font: 600 32px Poppins, sans-serif;
+    text-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 991px) {
+    .stats-card-title {
+        padding: 0 20px;
+    }
+}
+
+.stats-card-value {
+    background-color: #d9d9d9;
+    color: #0048ff;
+    border-radius: 0 0 8px 8px;
+    padding: 48px 76px;
+    margin:0;
+    font: 800 75px Inter, sans-serif;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .stats-card-value {
+        font-size: 40px;
+        padding: 0 30px;
+        white-space: initial;
+    }
+}
